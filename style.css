@@ -70,6 +70,12 @@ text-align: center;
   transition: all 0.3s ease;
 }
 
+.answer a:hover{
+  color: rgb(235, 104, 235);
+  background: var(--White);
+  border: 2px solid rgb(235, 104, 235);
+}
+
 .yes-img{
 display: flex;
 justify-content: center;
@@ -104,3 +110,45 @@ width: 70%;
   color: rgb(124, 34, 124);
 }
 
+@media screen and (max-width: 768px){
+  .gif img{
+    width: 50vw;
+      }
+
+  h1{
+    font-size: 15vw;
+    }
+
+    .answer{
+      gap: 3vw;
+  }
+
+  .answer a{
+    font-size: 3vw;
+    font-family: var(--Roboto);
+    padding: 14px 30px;
+    /* background: rgb(235, 104, 235); */
+  }
+  
+  .yes-img img{
+    width: 40vw;
+    }
+    
+    .love{
+      /* font-family: var(--Mulish); */
+      font-size: 12vw;
+      /* font-weight: 700; */
+      /* color: rgb(124, 34, 124); */
+    }
+    
+    .no-img img{
+    width: 40vw;
+    }
+    
+    .loved{
+      /* font-family: var(--Mulish); */
+      font-size: 6vw;
+      /* font-weight: 700; */
+      /* color: rgb(124, 34, 124); */
+    }
+}
